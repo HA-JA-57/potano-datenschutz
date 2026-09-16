@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — Potano</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --line: rgba(0, 0, 0, 0.08);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f5f5f7;
+        --muted: #a1a1a6;
+        --bg: #000000;
+        --card: #1c1c1e;
+        --line: rgba(255, 255, 255, 0.12);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 17px/1.47 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 8px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 32px;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-bottom: 14px;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      margin: 0 0 8px;
+    }
+    p { margin: 0 0 8px; }
+    p:last-child { margin-bottom: 0; }
+    a { color: #0071e3; }
+    nav { margin-bottom: 28px; font-size: 14px; }
+    nav a { text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav>
+      <a href="./">Datenschutz</a>
+    </nav>
+    <h1>Support</h1>
+    <p class="meta">Potano · Hilfe und Kontakt</p>
+
+    <section>
+      <h2>Hilfe in der App</h2>
+      <p>
+        Für Feedback und Fehlermeldungen nutze bitte die Funktion
+        <strong>Feedback</strong> in der App (Toolbar). Dort kannst du eine Notiz
+        und optional einen Screenshot an die hinterlegte Support-Adresse senden.
+      </p>
+    </section>
+
+    <section>
+      <h2>Kontakt</h2>
+      <p>
+        Bei Fragen zu Potano wende dich an die Praxis bzw. Person, die dir die App
+        zur Verfügung gestellt hat.
+      </p>
+      <p>
+        Technische Hinweise zur Einrichtung: Kalenderzugriff (voller Zugriff),
+        Schreibkalender und Backup-Ordner unter <strong>Einstellungen</strong> bzw.
+        im Tab <strong>Backup</strong>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Datenschutz</h2>
+      <p>
+        Die Datenschutzerklärung findest du hier:
+        <a href="./">Datenschutz — Potano</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
